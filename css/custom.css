@@ -6,6 +6,8 @@ d6ccc2- "Timberwolf" light brown
 f5ebe0- "Linen" baige
 e3d5ca- "Champagne pink"
 d5bdaf- "Pale wood"
+000000- "Black"
+ffffff- "White"
 *****/
 
 
@@ -29,13 +31,49 @@ h1, h2, h3, h4, h5, h6 {
 /******* HERO ******/
 /********************/
 header.masthead {
-    background-image: url('../img/bg.jpg');
+    background-image: url(../img/herobg.jpg);
 }
+
+.masthead h1 {
+    color: #f5ebe0; 
+    text-shadow: 2px 2px 5px Black;
+    font-size: 90px !important;
+}
+
+.masthead p {
+    color: #f5ebe0;
+    text-shadow: 2px 2px 5px black;
+    font-size: 90x !important;
+}
+
 
 /********************/
 /******* COLORS ******/
 /********************/
 .btn-primary {
-    
+    background-color: #000;
+    border: 2px solid #edede9;
 }
 
+.btn-primary:hover {
+    background: #e3d5ca;
+    border: 2px solid #d6ccc2;
+}
+/** HELPER CLASS **/
+.text-black {
+    color: black !important;
+
+}
+
+hr.divider {
+    background-color: #f5ebe0;
+}
+    
+.bg-primary {
+    background-color: #d62828 !important;
+}
+
+#mainNav.navbar-shrink {
+    box-shadow:#d62828;
+    background-color:#d62828;
+}
