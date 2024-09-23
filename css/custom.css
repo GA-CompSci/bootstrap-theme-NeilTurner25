@@ -21,7 +21,8 @@ body, p {
 
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: "Roboto Condensed", sans-serif;
 }
 
@@ -73,7 +74,20 @@ hr.divider {
     background-color: #d62828 !important;
 }
 
+.text-primary {
+    color: #d62828 !important;
+}
+
+/****** NAV BAR ******/
+
 #mainNav.navbar-shrink {
     box-shadow:#d62828;
     background-color:#d62828;
+}
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link, 
+#mainNav.navbar-shrink .navbar-brand {
+	color: #ffffff;
+}
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
+	color: #00b4d8;
 }
