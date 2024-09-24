@@ -42,7 +42,7 @@ header.masthead {
 }
 
 .masthead p {
-    color: #f5ebe0;
+    color: #ffffff;
     text-shadow: 2px 2px 5px black;
     font-size: 90x !important;
 }
@@ -89,5 +89,9 @@ hr.divider {
 	color: #ffffff;
 }
 #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
-	color: #00b4d8;
+	color: #000;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link.active {
+    color: #ffffff !important;
 }
