@@ -33,6 +33,10 @@ h1, h2, h3, h4, h5, h6,
 /********************/
 header.masthead {
     background-image: url(../img/herobg.jpg);
+
+.btn-primary:focus{
+    background-color: #edede9 !important
+    }
 }
 
 .masthead h1 {
@@ -95,3 +99,14 @@ hr.divider {
 #mainNav .navbar-nav .nav-item .nav-link.active {
     color: #ffffff !important;
 }
+
+
+
+/********************/
+/******* Top 6 ******/
+/********************/
+
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+    background: #a22422b2
+}
+
